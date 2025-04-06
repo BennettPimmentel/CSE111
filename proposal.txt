@@ -1,0 +1,52 @@
+Project Title:
+Developing a Dynamic AI Chatbot
+
+What problem will your program solve?
+This program aims to create a dynamic AI chatbot that can simulate basic conversations with users. The chatbot will respond to different user inputs intelligently and will include functionalities like greetings, simple question answering, mood detection, and topic switching. It serves as a useful tool for customer service, learning environments, or even as a personal productivity assistant.
+
+Who will use your program?
+The program is intended for anyone interested in human-computer interaction, such as small businesses needing an automated customer assistant, students looking for learning companions, or individuals experimenting with basic AI interaction.
+
+What input will your program receive?
+The program will receive text input from the user via the command line or GUI. This input can be a question, statement, or command like “Tell me a joke” or “What’s the weather like?”
+
+What output will your program produce?
+The chatbot will produce a relevant textual response based on the user’s input. It will handle multiple types of interactions, including casual conversation, FAQs, and feedback handling.
+
+What functions will you include in your program?
+
+greet_user(): Greets the user with a randomized welcome message.
+
+detect_intent(user_input): Determines the type of question or intent.
+
+generate_response(intent, user_input): Generates an appropriate response based on the detected intent.
+
+get_user_mood(user_input): Uses keywords to estimate the user’s emotional tone.
+
+main_chat_loop(): Runs the chatbot, processing user input in a loop.
+
+load_response_data(file): Loads response templates or FAQs from a file.
+
+Which two functions will you write test functions for?
+
+detect_intent()
+
+generate_response()
+
+What real-world data will your program use?
+The chatbot will use a simple text-based database (JSON or CSV) containing sample responses, greetings, and FAQ-style questions. It may also use basic NLP techniques via the nltk library.
+
+How is your program useful or interesting to you?
+I’m passionate about AI and how it can enhance communication. This project allows me to explore practical natural language processing, modular code organization, and writing maintainable and testable functions.
+
+Optional: What extra features might your program include if you have time?
+
+-GUI with tkinter for interactive chatting
+
+-Sentiment analysis using a basic NLP model
+
+-Logging conversations for analysis
+
+-Memory of recent messages to maintain context
+
+-Voice input/output integration
