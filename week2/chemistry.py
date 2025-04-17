@@ -1,5 +1,5 @@
 from typing import Dict, Tuple
-from formula import parse_formula
+from week1.formula import parse_formula
 
 def make_periodic_table() -> Dict[str, Tuple[str, float, int]]:
     periodic_table = {

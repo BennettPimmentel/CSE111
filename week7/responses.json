@@ -1,0 +1,31 @@
+{
+  "greetings": ["Hello!", "Hi there!", "Hey!", "Welcome!"],
+  "farewells": ["Goodbye!", "See you later!", "Take care!"],
+  "jokes": [
+    "Why did the tomato blush? Because it saw the salad dressing!",
+    "I would tell you a construction joke, but I'm still working on it.",
+    "Why don't skeletons fight each other? They don't have the guts."
+  ],
+  "faq": {
+    "hours": "Our service is available 24/7.",
+    "location": "We are based in the cloud, everywhere and nowhere!"
+  },
+  "weather": [
+    "The weather today is sunny and warm!",
+    "It's a rainy day outside. Don't forget your umbrella!",
+    "It looks cloudy today. You might want to carry a jacket."
+  ],
+  "conversation_topics": ["music", "movies", "sports", "technology"],
+  "keywords": {
+    "greetings": ["hi", "hello", "hey", "greetings"],
+    "farewells": ["bye", "goodbye", "see you", "take care"],
+    "faq": ["faq", "question", "help", "pricing", "hours", "location"]
+  },
+  "mood_keywords": {
+    "happy": ["happy", "great", "good", "awesome"],
+    "sad": ["sad", "down", "tired", "bad"],
+    "angry": ["angry", "mad", "furious"],
+    "surprised": ["surprised", "shocked", "wow"],
+    "excited": ["excited", "pumped", "thrilled"]
+  }
+}
